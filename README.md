@@ -1,9 +1,9 @@
 # robotic-hoover-service
-## Summary
+# Summary
 
 A docker container with a robotic hoover service that navigates an imaginary room and reports back patches of dirt cleaned.
 
-## Instructions
+# Instructions
 
 ### How to build docker container
 
