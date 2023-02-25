@@ -29,14 +29,14 @@ Once the hoover service is running:
 
 - Navigate to the working directory '/robotic-hoover-service'
 
-### How to run test suite
+### How to run the test suite
 
-The following commands will help test the hoover service. The BDD framework used is behave (docs) https://behave.readthedocs.io/en/stable/index.html. I also provide features to be tested in Gherkin syntax in the '/features'. To look at the different human readable features tested navigate to '/features/steps' folder. The steps.py file provides the assertions for the features being tested. 
+The following commands will help test the hoover service. The BDD framework used is behave (https://behave.readthedocs.io/en/stable/index.html). I also provide features to be tested in Gherkin syntax in the '/features'. To look at the different human readable features tested navigate to '/features/steps' folder. The steps.py file provides the assertions for the features being tested. 
 
-Displays a quick report on all features on the terminal:
+Displays a quick report on all features in terminal:
 > behave
 
-Displays and saves a junit report per feature to a relative folder '/reports':
+Displays and saves a junit style report per feature to a relative folder '/reports':
 > behave --junit
 
 My favorite way to export report with behave. This outputs a json readable file on 'reports/json-report.txt':
